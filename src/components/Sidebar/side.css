@@ -9,6 +9,7 @@
 .avatar {
     height: 6rem;
     width: 6rem;
+    margin-bottom: 5rem;
     background: black;
     margin-left: 3rem;
     margin-top: 2rem;
@@ -17,4 +18,11 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/* BUTTON.JS */
+.nav-btns {
+    width: 80%;
+    margin: 1rem 10%;
+    height: 2.5rem;
 }
