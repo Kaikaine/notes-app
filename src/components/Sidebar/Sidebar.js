@@ -7,7 +7,7 @@ import Button from './Button';
 const Sidebar = () => {
     
 
-    return ( <div className='side-bar'>
+    return ( <div className='side-bar view'>
         <Avatar />
         <Button />
         </div> );

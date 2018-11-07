@@ -5,6 +5,15 @@
     background: #c7c3c3;
 }
 
+.view {
+    display: initial;
+
+}
+
+.no-view {
+    display: none;
+}
+
 /* AVATAR.JS */
 .avatar {
     height: 6rem;
@@ -25,4 +34,14 @@
     width: 80%;
     margin: 1rem 10%;
     height: 2.5rem;
+}
+
+/* TOGGLE.JS */
+.toggle {
+    height: 2rem;
+    width: 2rem;
+    background: url('https://cdn2.iconfinder.com/data/icons/clean-minimal-set/16/open-menu-01-512.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
