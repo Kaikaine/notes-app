@@ -1,18 +1,13 @@
 /* NOTE CONTAINER */
 .note-container {
-    width: 80%;
-    border: 1px solid black;
+    height: 85vh;
+    background: pink;
 }
 
 .notes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
 }
 
 .note {
-    border: 1px solid black;
-    min-width: 10%;
-    width: 15rem;
-    margin-bottom: 1%
+    
 }

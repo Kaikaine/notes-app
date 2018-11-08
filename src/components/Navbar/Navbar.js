@@ -1,16 +1,15 @@
 import React from 'react';
-import './side.css'
+import './navbar.css'
 import Avatar from './Avatar';
 import Button from './Button';
 
 
-const Sidebar = () => {
+const Navbar = () => {
     
 
-    return ( <div className='side-bar view'>
-        <Avatar />
+    return ( <div className='nav-bar view'>
         <Button />
         </div> );
 }
  
-export default Sidebar;
+export default Navbar;

@@ -33,9 +33,5 @@
 
 
 .notes-container {
-  display: flex;
-  flex-wrap: wrap;
-  background: #f2f1f2;
-  width: 100vw;
-  height: 100vh;
+  
 }

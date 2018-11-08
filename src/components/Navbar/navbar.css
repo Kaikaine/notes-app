@@ -1,0 +1,35 @@
+/* SIDEBAR */
+.nav-bar {
+    height: 9vh;
+    background: black;
+    padding-bottom: 2rem;
+}
+
+.view {
+    
+
+}
+
+.no-view {
+    
+}
+
+/* AVATAR.JS */
+.avatar {
+    
+}
+
+/* BUTTON.JS */
+.nav-btns {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2%;
+    border-radius: 50px;
+    
+}
+
+#logout {
+    
+}
+
+/* TOGGLE.JS */

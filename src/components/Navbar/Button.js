@@ -19,9 +19,9 @@ const buttons = [
 const Button = () => {
     return ( <div>
         
-        {buttons.map((btn,i) => {
+        {/*{buttons.map((btn,i) => {
             return <button className='nav-btns ' id={btn.id} key={i}>{btn.name}</button>
-        })}
+        })}*/}
         
         </div> );
 }
