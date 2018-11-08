@@ -11,7 +11,8 @@ const buttons = [
         name: "Group Notes"
     },
     {
-        name: "Logout"
+        name: "Logout",
+        id: "logout"
     }
 ]
 
@@ -19,7 +20,7 @@ const Button = () => {
     return ( <div>
         
         {buttons.map((btn,i) => {
-            return <button className='nav-btns' key={i}>{btn.name}</button>
+            return <button className='nav-btns ' id={btn.id} key={i}>{btn.name}</button>
         })}
         
         </div> );

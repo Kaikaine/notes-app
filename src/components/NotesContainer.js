@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from './Sidebar/Sidebar';
 import '../App.css'
 import Toggle from './Sidebar/Toggle';
+import NoteContainer from './Notes/NoteContainer';
 
 class NotesContainer extends Component {
     constructor(props) {
@@ -32,6 +33,7 @@ class NotesContainer extends Component {
         return ( <div className='notes-container'>
             <Sidebar />
             <Toggle toggle={this.toggleSidebar} />
+            <NoteContainer />
             </div> );
     }
 }
