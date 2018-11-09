@@ -22,6 +22,10 @@ const Button = () => {
         {/*{buttons.map((btn,i) => {
             return <button className='nav-btns ' id={btn.id} key={i}>{btn.name}</button>
         })}*/}
+
+        <button>View Notes</button>
+
+        <button>Create Notes</button>
         
         </div> );
 }

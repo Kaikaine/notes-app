@@ -1,23 +1,16 @@
 /* NOTE CONTAINER */
 .note-container {
-    height: 85vh;
-    background: pink;
+    
 }
 
 .notes {
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 77vh;
+    
 }
 
 h1 {
-    text-align: center;
-    color: grey;
+ 
 }
 
 .note {
-    border-bottom: 1px solid black;
-    width: 80%;
-    margin-left: 2%;
-    margin-bottom: 1rem
+
 }
