@@ -4,6 +4,7 @@ import '../App.css'
 import NoteContainer from './Notes/NoteContainer';
 import HeaderContainer from './Header/HeaderContainer';
 import { Route} from 'react-router-dom';
+import AddNote from './AddNote/AddNote';
 
 class NotesContainer extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class NotesContainer extends Component {
         this.state = {
             title: '',
             content: '',
-
+            image: '',
             notes: []
         }
     }
@@ -24,10 +25,11 @@ class NotesContainer extends Component {
         e.preventDefault()
         const notes = this.state.notes.slice()
         notes.push({
-            text: this.state.text,
+            title: this.state.title,
             content: this.state.content,
+            image: this.state.image
         })
-        this.setState({ text: '', content: ''})
+        this.setState({ title: '', content: '', image: '', notes: notes})
     }
 
 
@@ -35,8 +37,8 @@ class NotesContainer extends Component {
     render() {
         return (<div className='notes-container'>
             <Navbar />
-            <Route exact path='/' render={routerProps => <NoteContainer {...routerProps}  />} />
-
+            <Route exact path='/' render={routerProps => <NoteContainer {...routerProps} notes={this.state.notes}/>} />
+            <Route exact path='/create' render={routerProps => <AddNote {...routerProps} new={this.newNote} add={this.addNote} title={this.state.title} content={this.state.content} image={this.state.image} />} />
         </div>);
     }
 }

@@ -1,16 +1,11 @@
 import React, { Component } from 'react'
 import Note from './Note';
 
-class NoteContainer extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
+const NoteContainer = props => {
         return ( <div className='note-container'>
-            <Note />
+            <Note notes={props.notes}/>
             </div> );
     }
-}
+
  
 export default NoteContainer;

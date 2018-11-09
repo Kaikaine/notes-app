@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css'
 import Button from './Button';
+import {  NavLink, Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -15,10 +16,10 @@ const Navbar = () => {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <Link to="/" class="nav-link" href="#">Home</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <Link to="/create" class="nav-link" href="#">Add Note</Link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
